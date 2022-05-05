@@ -1,0 +1,26 @@
+{
+  "name": "smart-fridge",
+  "version": "1.0.0",
+  "description": "smart fridge with load cell sensors",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "Smart",
+    "Fridge"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "circular-json": "^0.5.9",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.17.3",
+    "multer": "^1.4.4",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.15",
+    "path": "^0.12.7"
+  }
+}
